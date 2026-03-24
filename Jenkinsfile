@@ -4,7 +4,7 @@ pipeline {
     
   stage('Clone'){
     steps{
-      git url: 'https://github.com/Padmanabha187/jenkin-simple-demo.git',
+      git url: 'https://github.com/Padmanabha187/docker-devops.git',
         branch: 'main'
     }
   }
